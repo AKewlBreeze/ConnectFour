@@ -1,0 +1,55 @@
+body {
+  font-family: 'Bungee Shade', cursive;
+}
+
+.game-canvas,
+.gamepiece {
+  margin: auto;
+  display: block;
+}
+
+#game {
+  background-color: white;
+  background-position: bottom;
+  z-index: 1;
+}
+
+.title {
+  font-size: 30px;
+  text-align: center;
+}
+span {
+  color: red;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.restart {
+  font-family: 'Bungee Shade', cursive;
+  text-decoration: none;
+  font-size: 20px;
+  background: none;
+  border: none;
+  float: right;
+  margin-right: 20px;
+  cursor: pointer;
+
+}
+
+
+.home-screen {
+  background: whitesmoke;
+  color: black;
+  text-align : center;
+  margin: auto;
+  opacity: 0.9;
+  width: 650px;
+  font-size: 20px;
+  display: block;
+  position: absolute;
+  top: 60%;
+  left: 24.5%;
+}
